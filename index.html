@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>      <!-- vue -->
+    
+    <link rel="stylesheet" href="./css/style.css">                          <!-- css -->
+</head>
+<body>
+
+    <!-- --------------------------------------------------- -->
+    <div id="container">                         <!-- vue.js -->
+    <!-- --------------------------------------------------- -->
+
+        <div :class="colore">
+            <h1 :class="txt">{{ saluta }}</h1>
+            <img :class="sizeImage" :src="image" :alt="altImage">
+        </div>
+        
+
+
+    <!-- --------------------------------------------------- -->
+    </div>                                       <!-- vue.js -->
+    <!-- --------------------------------------------------- -->
+
+    <script src="./js/script.js"></script>                              <!-- script.js -->
+</body>
+</html>
