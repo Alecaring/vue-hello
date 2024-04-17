@@ -19,6 +19,12 @@
     box-shadow: 10px 10px 30px rgba(119, 119, 174, 0.705);
     display: block;
 }
+
+.image:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
 .txtCss {
     text-align: center;
     font-size: 4rem;
